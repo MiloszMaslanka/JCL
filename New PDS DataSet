@@ -1,4 +1,4 @@
-//ADDPDS00 JOB ,'PZ05355',MSGCLASS=X,MSGLEVEL=(1,1),NOTIFY=&SYSUID,
+//ADDPDSDS JOB ,'MILOSZ77',MSGCLASS=X,MSGLEVEL=(1,1),NOTIFY=&SYSUID,
 // REGION=0M                                                      
 //**************************************************************  
 //********              CREATE A PDS DATASET           *********  
