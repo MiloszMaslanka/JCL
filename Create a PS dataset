@@ -1,0 +1,10 @@
+//CREATEPS JOB CLASS=A,NOTIFY=&SYSUID,MSGLEVEL=(1,1),MSGCLASS=A         
+//*****************************************************************     
+//**********   JCL TO CREATE A PS FILE                                  
+//*****************************************************************     
+//STEP010 EXEC PGM=IEFBR14                                             
+//DD1 DD DSN=ABHI.COURSE.PS,                                        
+//       DISP=(MOD,CATLG,DELETE),                                    
+//       SPACE=(TRK,(10,100),RLSE),                                
+//       DCB=(LRECL=80,RECFM=FB,BLKSIZE=800,DSORG=PS)             
+/*
